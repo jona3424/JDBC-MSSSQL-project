@@ -1,7 +1,14 @@
-#Online Shop System
-This repository contains a system for simulating online sales of various products. The system acts as an intermediary between customers and stores, facilitating the advertisement of products, order creation, order delivery from stores to customers, and payment processing.
+# Online Shop System
 
-#Description
+
+
+## Documentation
+
+The function documentation can be found in the [documentation](https://github.com/jona3424/JDBC-MSSSQL-project/tree/main/documentation) folder. Please refer to the [index.html](https://github.com/jona3424/JDBC-MSSSQL-project/blob/main/documentation/index.html) file for detailed information.
+
+
+## Description
+
 The system enables stores to advertise their products, specifying the price and available quantity. Stores also have the option to define discounts that are applicable to all their products for a specific period of time.
 
 Customers can create orders by selecting items from multiple stores and indicating the desired quantity. Upon submitting the order, the system verifies its feasibility and proceeds with the payment process. The system deducts the required amount from the customer's virtual account (within the system) and records each transaction as a separate entry. Once the payment is completed, the order is automatically sent to the customer. Orders can have three different states: "created" (order is created but not yet fulfilled), "sent" (order is complete and sent to the customer), and "arrived" (order has reached the customer's city).
@@ -22,5 +29,3 @@ Each primary key column (Id) that is not a foreign key should be an IDENTITY col
 
 The DECIMAL(10,3) data type should be used for decimal numbers. The default maximum length for all text columns in the tables is 100 characters, unless otherwise specified for a specific column.
 
-#Documentation
-The function documentation can be found in the documentation folder. Please refer to the index.html file for detailed information.
